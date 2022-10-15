@@ -39,9 +39,9 @@ public class Main {
             }
         }
         int minSpending = 201000;
-        for (final int current1 : array) {
-            if (current1 < minSpending) {
-                minSpending = current1;
+        for (final int current : array) {
+            if (current < minSpending) {
+                minSpending = current;
             }
         }
         System.out.println("Минимальная сумма трат за месяц сотавила " + minSpending + " рублей. Максимальная сумма трат за месяц сотавила " + maxSpending + " рублей");
